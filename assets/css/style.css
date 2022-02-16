@@ -36,7 +36,11 @@ header li {
 }*/
 
 .opener {
-    background-color: aqua;
+
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     width: 100%; 
     margin: 10px;   
 }
@@ -47,7 +51,7 @@ header li {
     max-width: 200px;
  /*   margin-left: auto;
     margin-right: auto; */
-    padding: 20vh 0;
+    padding: 20vh 0 5vh 0;
     
 }
 
