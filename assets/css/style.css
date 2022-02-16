@@ -27,20 +27,23 @@ header li {
    /* margin-left: 150px;
     margin-right: 150px;*/
 }
-/*
-.fullscreen {
-    width: 100%;
+
+
+
+.intro, .about-me {
     height: 100vh;
 
+}
 
-}*/
+.web-application {
 
-.opener {
+}
+
+.intro, .about-me, .web-application {
 
     background-image: url("../images/background1.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
     width: 100%; 
     margin: 10px;   
 }
@@ -64,16 +67,21 @@ header li {
 }
 
 .about-me {
-    background-color: rgb(150, 72, 133);
-    width: 100%;
-    margin: 10px;
+    padding: 30vh 20px;
+
 }
 
+
+/*
 .web-application {
-    background-color: blueviolet;
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    background-position: center;
+
     margin: 10px;
     
-}
+}*/
+
 
 .about-me, .web-application{
     /*background-color: rgb(202, 96, 158);/*
@@ -81,7 +89,8 @@ header li {
     width: 100%;
     display: block;
     flex-wrap: auto;
-    padding: 30vh 20px;
+
+    
     
 }
 
