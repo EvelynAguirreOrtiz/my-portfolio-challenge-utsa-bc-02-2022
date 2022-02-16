@@ -11,6 +11,7 @@ body {
     /*display: flex;
     flex-wrap: wrap;*/
 }
+
 header ul {
     display: flex;
     justify-content: space-around;
@@ -21,31 +22,10 @@ header ul {
    /* box-sizing: 0 50%;*/
 }
 
-
 header li {
     display: inline-block;
    /* margin-left: 150px;
     margin-right: 150px;*/
-}
-
-
-
-.intro, .about-me {
-    height: 100vh;
-
-}
-
-.web-application {
-
-}
-
-.intro, .about-me, .web-application {
-
-    background-image: url("../images/background1.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%; 
-    margin: 10px;   
 }
 
 .avatar img{
@@ -58,7 +38,20 @@ header li {
     
 }
 
-.developer {
+.intro, .about-me, .my-projects {
+
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    margin: 10px;   
+}
+
+.intro, .about-me {
+    height: 100vh;
+}
+
+.intro-text {
     display: block;
     flex-wrap: wrap;
     /*justify-content: center;*/
@@ -71,34 +64,26 @@ header li {
 
 }
 
-
-/*
-.web-application {
-    background-image: url("../images/background1.jpg");
-    background-size: cover;
-    background-position: center;
-
-    margin: 10px;
-    
-}*/
-
-
-.about-me, .web-application{
-    /*background-color: rgb(202, 96, 158);/*
-    /*height: 450px;*/
-    width: 100%;
-    display: block;
-    flex-wrap: auto;
-
-    
-    
+.my-projects {
+    padding: 10vh 20px;
+    height: 100%;
 }
 
-.about-me h2, .web-application h2 {
+
+
+.about-me, .my-projects{
+    /*background-color: rgb(202, 96, 158);/*
+    /*height: 450px;*/
+
+    display: block;
+    flex-wrap: auto;
+}
+
+.about-me h2, .my-projects h2 {
     padding: 0 0 20px 0;
 }
 
-.about-me p, .web-application p {
+.about-me p, .my-projects p {
     text-align: left;
     width: auto;
     margin-left: 30px;
@@ -106,7 +91,7 @@ header li {
 }
 
 
-.portfolio-links {
+.my-project-links {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -115,9 +100,7 @@ header li {
     padding-top: 20px;
 }
 
-
-
-.app-link {
+.live-link {
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
@@ -134,14 +117,13 @@ header li {
 }
 
 
-.app-link h3{
-    
+.live-link h3{
     padding: 120px 0 0 0;
    /* line-height: 1.5;*/
 }
 
 
-.app-link:hover {
+.live-link:hover {
     transform: scale(1.2);
 }
 
