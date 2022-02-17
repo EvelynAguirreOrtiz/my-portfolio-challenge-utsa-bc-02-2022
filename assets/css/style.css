@@ -12,18 +12,23 @@ body {
     flex-wrap: wrap;*/
 }
 
+header {
+    padding-top: 20px;
+}
 header ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     list-style-type: none;
-    padding: 20px 0;
+
+    
    /* box-sizing: 0 50%;*/
 }
 
 header li {
     display: inline-block;
+  
  /*   list-style-type: none; */
 
    /* margin-left: 150px;
@@ -32,6 +37,8 @@ header li {
 
 header a {
     text-decoration: none;
+    color: black;
+    
 }
 
 footer{
@@ -48,18 +55,15 @@ footer{
     
 }
 
-.intro, .about-me, .my-resume, .my-projects, .contact-me {
+.intro, .about-me, .my-resume, .my-projects, .contact-form {
 
     background-image: url("../images/background1.jpg");
-    background-size: 50%;
+    background-size: 100%;
     background-position: center;
-
- /*   width: 100%; */
-
     margin: 20px;   
 }
 
-.intro, .about-me, .contact-me {
+.intro, .about-me {
     height: 100vh;
 }
 
@@ -68,18 +72,12 @@ footer{
     flex-wrap: wrap;
     /*justify-content: center;*/
     /*align-items: center;*/
-
 }
 
-.about-me, .contact-me {
+.about-me, .contact-form {
     padding: 30vh 20px;
-
 }
-
-
-
-
-.about-me, .my-projects, .contact-me{
+.about-me, .my-projects, .contact-form{
     /*background-color: rgb(202, 96, 158);/*
     /*height: 450px;*/
 
@@ -87,18 +85,19 @@ footer{
     flex-wrap: auto;
 }
 
-.about-me h2, .my-projects h2 {
-    padding: 0 0 20px 0;
+.about-me h2, .my-resume h2, .my-projects h2, .contact-form h2{
+   /* padding: 0 0 20px 0; */
+    padding-bottom: 20px;
 }
 
-.about-me p, .my-projects p {
+.about-me p, .my-projects p, .contact-form p {
     text-align: left;
     width: auto;
     margin-left: 30px;
     margin-right: 30px;   
 }
 
-.my-resume, .my-projects, .contact-me {
+.my-resume, .my-projects {
     padding: 10vh 20px;
     height: 100%;
 }
@@ -156,7 +155,12 @@ footer{
 
 .horiseon {
     background-image: url(../images/horiseon-screenshot.png);
-    opacity: 0.7;
+
+}
+
+.horiseon:focus {
+    
+
 }
 
 .example-3 {
@@ -167,6 +171,33 @@ footer{
 
 .example-5 {
 
+}
+
+/* CONTACT SECTION */
+.contact-form input, .contact-form your-email{
+    padding: 15px 20px;;
+}
+
+.contact-form textarea {
+    padding: 25px 20px;
+}
+
+
+.contact-form input, .contact-form textarea{
+    border: 1px solid;
+    display: block;
+    font-size: 10px;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+
+}
+
+.contact-form button {
+    width: auto;
+    border: 1px solid;
+    padding: 10px 20px;
+    margin-top: 10px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
