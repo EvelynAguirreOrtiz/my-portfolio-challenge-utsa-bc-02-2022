@@ -44,23 +44,23 @@ header a {
 }
 
 header li:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
     
 }    
 
-footer{
+footer {
     padding: 0 0 20px 0;
+    font-weight: lighter;
 }
 
 .avatar img{
     display: block;
     margin: auto; 
     max-width: 200px;
- /*   margin-left: auto;
-    margin-right: auto; */
     padding: 20vh 0 5vh 0;
-    
+
 }
+    
 
 .intro, .about-me, .my-resume, .my-projects, .contact-form {
 
@@ -79,21 +79,37 @@ footer{
     flex-wrap: wrap;
     /*justify-content: center;*/
     /*align-items: center;*/
+
 }
 
+.intro-text h1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.intro-text h2 {
+    font-weight: lighter;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 15px;
+}
+
+.about-me h2, .my-resume h2, .my-projects h2, .contact-form h2 {
+    font-size: 25px;
+    font-style: italic;
+}
 .about-me, .contact-form {
     padding: 30vh 20px;
 }
 .about-me, .my-projects, .contact-form{
-    /*background-color: rgb(202, 96, 158);/*
-    /*height: 450px;*/
-
     display: block;
     flex-wrap: auto;
 }
 
 .about-me h2, .my-resume h2, .my-projects h2, .contact-form h2{
-   /* padding: 0 0 20px 0; */
     padding-bottom: 20px;
 }
 
@@ -118,6 +134,7 @@ footer{
     flex-basis: auto;
     justify-content: center;
     padding-top: 20px;
+
 }
 
 .live-link {
@@ -137,15 +154,17 @@ footer{
 }
 
 
-.live-link h3{
-    padding: 120px 0 0 0;
+.live-link h3 {
+    padding: 115px 0 10px 0;
+    font-size: 33px;
+    font-style: italic;
 
    /* line-height: 1.5;*/
 }
 
 
 
-.live-link a{
+.live-link a {
     text-decoration: none;
     position: relative;
     color: black;
@@ -157,18 +176,14 @@ footer{
 }
 
 .run-buddy {
-    background-image: url(../images/run-buddy-screenshot.png);
+    background-image: url(../images/run-buddy-resize-square.jpg);
 }
 
 .horiseon {
-    background-image: url(../images/horiseon-screenshot.png);
+    background-image: url(../images/Horiseon-screenshot-resize.png);
 
 }
 
-.horiseon:focus {
-    
-
-}
 
 .example-3 {
 }
@@ -182,18 +197,19 @@ footer{
 
 /* CONTACT SECTION */
 .contact-form input, .contact-form your-email{
-    padding: 15px 20px;;
+    padding: 15px 20px;
 }
 
 .contact-form textarea {
-    padding: 25px 20px;
+    padding: 30px 20px;
 }
 
 
 .contact-form input, .contact-form textarea{
     border: 1px solid;
     display: block;
-    font-size: 10px;
+    font-size: 12px;
+    font-style: italic;
     width: 50%;
     margin: auto;
     border-radius: 5px;
@@ -209,16 +225,28 @@ footer{
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-
+    .intro {
+        height: 100%;
+        padding-bottom: 20vh;
+    }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width:768px) {
-
+    .intro {
+        height: 100%;
+        padding-bottom: 10vh;
+    }
 }
-
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    .avatar img {
+        padding-top: 10vh;
+    }
 
+    .contact-form {  
+    
+        padding: 10vh 20px;
+    }
 }
