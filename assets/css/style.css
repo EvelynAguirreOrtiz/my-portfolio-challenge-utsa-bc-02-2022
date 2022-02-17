@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(145, 147, 150);
     text-align: center;
     /*display: flex;
     flex-wrap: wrap;*/
@@ -35,7 +35,7 @@ header a {
 }
 
 footer{
-    padding: 5px;
+    padding: 0 0 20px 0;
 }
 
 .avatar img{
@@ -51,10 +51,12 @@ footer{
 .intro, .about-me, .my-resume, .my-projects, .contact-me {
 
     background-image: url("../images/background1.jpg");
-    background-size: cover;
+    background-size: 50%;
     background-position: center;
-    width: 100%; 
-    margin: 10px;   
+
+ /*   width: 100%; */
+
+    margin: 20px;   
 }
 
 .intro, .about-me, .contact-me {
@@ -139,6 +141,8 @@ footer{
 
 .live-link a{
     text-decoration: none;
+    position: relative;
+    color: black;
     
 }
 
@@ -165,7 +169,18 @@ footer{
 
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width:768px) {
+
+}
 
 
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
 
-
+}
