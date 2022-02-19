@@ -8,8 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(145, 147, 150);
     text-align: center;
-    /*display: flex;
-    flex-wrap: wrap;*/
 }
 
 header {
@@ -21,18 +19,11 @@ header ul {
     flex-wrap: wrap;
     align-items: center;
     list-style-type: none;
-
-    
-   /* box-sizing: 0 50%;*/
 }
 
 header li {
     display: inline-block;
   
- /*   list-style-type: none; */
-
-   /* margin-left: 150px;
-    margin-right: 150px;*/
 }
 
 header a {
@@ -40,7 +31,6 @@ header a {
     color: black;
 
     transition: transform .2s;
-    
 }
 
 header li:hover {
@@ -61,7 +51,6 @@ footer {
 
 }
     
-
 .intro, .about-me, .my-resume, .my-projects, .contact-form {
 
     background-image: url("../images/background1.jpg");
@@ -77,9 +66,6 @@ footer {
 .intro-text {
     display: block;
     flex-wrap: wrap;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-
 }
 
 .intro-text h1 {
@@ -177,6 +163,8 @@ footer {
 
 .run-buddy {
     background-image: url(../images/run-buddy-resize-square.jpg);
+    width: 600px;
+    height: 300px;
 }
 
 .horiseon {
@@ -246,7 +234,6 @@ footer {
     }
 
     .contact-form {  
-    
         padding: 10vh 20px;
     }
 }
