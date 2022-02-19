@@ -1,4 +1,18 @@
-# portfolio-challenge
+# My Portfolio
+## Module 2 Challenge
 
-This is a preliminary portfolio page designed using HRML and CSS.
+### Purpose
 
+This is a preliminary portfolio page designed using HTML and CSS.
+
+It includes links to two live websites with placekeepers for future projects. 
+
+
+### Built With
+HTML
+CSS
+
+### Website
+
+
+![](./assets/images/portfoilio-screenshot.png)
