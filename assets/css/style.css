@@ -111,8 +111,6 @@ footer {
     height: 100%;
 }
 
-
-
 .my-project-links {
     display: flex;
     flex-direction: row;
@@ -139,7 +137,6 @@ footer {
     transition: transform .2s;
 }
 
-
 .live-link h3 {
     padding: 115px 0 10px 0;
     font-size: 33px;
@@ -147,8 +144,6 @@ footer {
 
    /* line-height: 1.5;*/
 }
-
-
 
 .live-link a {
     text-decoration: none;
@@ -161,26 +156,39 @@ footer {
     transform: scale(1.2);
 }
 
-.run-buddy {
-    background-image: url(../images/run-buddy-screenshot.png);
+.search-watch-chill {
+    background-image: url(../images/search-watch-chill-screenshot.jpeg);
+    background-size: cover;
     width: 900px;
     height: 300px;
+}
+
+.run-buddy {
+    background-image: url(../images/run-buddy-screenshot.png);  
 }
 
 .horiseon {
     background-image: url(../images/Horiseon-screenshot-resize.png);
 }
 
-.example-3 {
-    background-image: url(../images/example3.jpg);
+.password-generator {
+    background-image: url(../images/password-generator-screenshot-clip.jpg);
+    background-size: cover;
 }
 
-.example-4 {
-    background-image: url(../images/example4.jpg);
+.coding-quiz {
+    background-image: url(../images/coding-quiz-screenshot-clip.jpg);
 }
 
-.example-5 {
-    background-image: url(../images/example5.jpg);
+.work-day-scheduler {
+    background-image: url(../images/work-day-scheduler-screenshot.jpeg);
+    background-size: cover;
+
+}
+
+.weather-dashboard {
+    background-image: url(../images/weather-dashboard-screenshot.jpg);
+    background-size: cover;
 }
 
 /* CONTACT SECTION */
