@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(145, 147, 150);
     text-align: center;
 }
@@ -48,7 +48,6 @@ footer {
     margin: auto; 
     max-width: 200px;
     padding: 20vh 0 5vh 0;
-
 }
     
 .intro, .about-me, .my-resume, .my-projects, .contact-form {
@@ -149,7 +148,6 @@ footer {
     text-decoration: none;
     position: relative;
     color: black;
-    
 }
 
 .live-link:hover {
@@ -157,38 +155,69 @@ footer {
 }
 
 .search-watch-chill {
-    background-image: url(../images/search-watch-chill-screenshot.jpeg);
+    background-image: url(../images/search-watch-chill-screenshot-clip.jpg);
     background-size: cover;
     width: 900px;
     height: 300px;
+}
+
+.search-watch-chill a, .search-watch-chill h4{
+    color: bisque;
+    text-shadow: 2px 2px 3px black;
 }
 
 .run-buddy {
     background-image: url(../images/run-buddy-screenshot.png);  
 }
 
+.run-buddy a, .run-buddy h4 {
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px white;
+}
+
 .horiseon {
     background-image: url(../images/Horiseon-screenshot-resize.png);
+    
+}
+
+.horiseon a, .horiseon h4 {
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px white;
 }
 
 .password-generator {
-    background-image: url(../images/password-generator-screenshot-clip.jpg);
-    background-size: cover;
+    background-image: url(../images/password-generator-screenshot-clip_edited.jpg);
+    text-shadow: 1px 2px 3px white;
 }
 
 .coding-quiz {
-    background-image: url(../images/coding-quiz-screenshot-clip.jpg);
+    background-image: url(../images/coding-quiz-screenshot_edited.jpg);
+    background-size: cover;
+}
+
+.coding-quiz a, .coding-quiz h4 {
+    /* font-weight: bold; */
+    text-shadow: 2px 2px 4px white;
 }
 
 .work-day-scheduler {
-    background-image: url(../images/work-day-scheduler-screenshot.jpeg);
+    background-image: url(../images/work-day-scheduler-screenshot_edited.jpg);
     background-size: cover;
+    text-shadow: 2px 2px 3px white;
 
 }
 
 .weather-dashboard {
-    background-image: url(../images/weather-dashboard-screenshot.jpg);
+    background-image: url(../images/weather-dashboard-screenshot_edited.jpg);
+    text-shadow: 2px 3px 3px black;
     background-size: cover;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.weather-dashboard a, .weather-dashboard h4 {
+    font-weight: bold;
+    color: aliceblue;
 }
 
 /* CONTACT SECTION */
