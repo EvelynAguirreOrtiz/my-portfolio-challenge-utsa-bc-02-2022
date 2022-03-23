@@ -1,11 +1,11 @@
 # My Portfolio
-## Module 2 Challenge
+## Module 8 Challenge and Group Project 1
 
 ### Purpose
 
-This is a preliminary portfolio page designed using HTML and CSS.
+This is an update to the original preliminary portfolio page.
 
-It includes links to two live websites with placekeepers for future projects. All navigational links lead to their corresponding section of the application. The layout is responsive to various screen sizes and devices.
+The page has been updated to include links to the Group Project "Search, Watch, Chill", as well as live links to other projects and challenges. Direct links to GitHub and LinkedIn have also been added. 
 
 
 ### Built With
@@ -14,6 +14,6 @@ It includes links to two live websites with placekeepers for future projects. Al
 
 ### Website
 
-https://evelynaguirreortiz.github.io/my-portfolio-challenge-utsa-bc-02-2022/
+https://evelynaguirreortiz.github.io/my-portfolio-with-group-project-1-utsa-bc-02-2022/
 
-![](./assets/images/portfolio-screenshot.png)
+![](./assets/images/portfolio-screenshot.jpg)
