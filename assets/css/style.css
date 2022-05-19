@@ -183,8 +183,6 @@ footer {
 .search-watch-chill {
 	background-image: url(../images/search-watch-chill-screenshot-clip.jpg);
 	background-size: cover;
-	/* width: 900px;
-	height: 300px; */
 }
 
 .search-watch-chill a,
@@ -200,7 +198,6 @@ footer {
 .tech-blog a,
 .tech-blog h4 {
 	font-weight: bolder;
-	/* text-shadow: 2px 2px 2px white; */
 }
 
 .note-taker {

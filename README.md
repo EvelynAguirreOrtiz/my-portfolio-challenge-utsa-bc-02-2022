@@ -19,7 +19,7 @@ Project URL:
 
 ### Website
 
-https://github.com/EvelynAguirreOrtiz/my-portfolio-utsa-bc-05-2022.git
+https://evelynaguirreortiz.github.io/my-portfolio-utsa-bc-05-2022/
 
 ![](./assets/images/portfolio-screenshot.jpg)
 
