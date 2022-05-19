@@ -1,19 +1,27 @@
 # My Portfolio
-## Module 8 Challenge and Group Project 1
 
-### Purpose
+## Description
 
-This is an update to the original preliminary portfolio page.
+I am an aspiring full-stack web developer. This is a preliminary project portfolio. Included is our latest group project, Meet Up SATX.
 
-The page has been updated to include links to the Group Project "Search, Watch, Chill", as well as live links to other projects and challenges. Direct links to GitHub and LinkedIn have also been added. 
+## Questions
 
+GitHub:
+<https://github.com/EvelynAguirreOrtiz>
+
+Project URL:
+<https://github.com/EvelynAguirreOrtiz/my-portfolio-utsa-bc-05-2022.git>
 
 ### Built With
+
 - HTML
 - CSS
 
 ### Website
 
-https://evelynaguirreortiz.github.io/my-portfolio-with-group-project-1-utsa-bc-02-2022/
+https://github.com/EvelynAguirreOrtiz/my-portfolio-utsa-bc-05-2022.git
 
 ![](./assets/images/portfolio-screenshot.jpg)
+
+Please send requests for additional information to:
+<evelyn.aguirre.9895@gmail.com>
